@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Mulish-Black";
+  src: local("Mulish-Black"),
+    url("../public/fonts/Mulish-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mulish-BlackItalic";
+  src: local("Mulish-BlackItalic"),
+    url("../public/fonts/Mulish-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mulish-Bold";
+  src: local("Mulish-Bold"),
+    url("../public/fonts/Mulish-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish-Black";
+}
+
+.mulish-black {
+  font-family: "Mulish-Black";
+}
+
+.large-button {
+  width: 20px;
+  color: "red";
+  font-size: 16px;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.box-form {
+  background-color: white;
+  width: 40%;
+  padding: 20px 0 20px 0;
+}
+
+.center-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  padding: 5px 0 5px 0;
+}
+
+.font-robot {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .box-title {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    width: 85%;
+    font-size: 12px;
+  }
+}
+
+/* Media query untuk perangkat dengan lebar antara 600px dan 900px (tablet) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .box-title {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    width: 35%;
+    font-size: 12px;
+  }
+}
+
+/* Media query untuk perangkat dengan lebar lebih dari 900px (desktop) */
+@media (min-width: 901px) {
+  .box-title {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    width: 30%;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .box-form {
+    background-color: white;
+    width: 30%;
+    padding: 20px 0 20px 0;
+  }
+
+  .footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 5px 0;
+  }
+}
+
+.field-input-text {
+  height: 35px;
+}
+
+.field-input-text input::placeholder {
+  font-size: 13px;
+}
+
+.font-pink {
+  color: #f49881;
+}
+
+.font-white {
+  color: white;
+}
+
+.bg-pink {
+  background-color: #f49881;
+}
+
+.logo {
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.box2 {
+  border: 1px solid #01bfbf;
+  border-radius: 4px;
+  width: 100%;
+  padding: 1% 2% 1% 2%;
+  height: auto;
+  justify-content: space-between;
+  margin: "0 auto";
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.imgDetail {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Gaya CSS untuk perangkat dengan lebar layar <= 600px */
+  body {
+    background-color: #f0f9f9;
+  }
+
+  .box {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .item {
+    margin-top: 8px;
+  }
+}
